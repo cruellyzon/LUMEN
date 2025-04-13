@@ -12,7 +12,7 @@ os.makedirs("data", exist_ok=True)
 np.random.seed(42)
 
 # Configurações dos dados
-n_samples = 2000
+n_samples = 500000
 n_genetic = 10
 n_environmental = 8
 n_relativistic = 6

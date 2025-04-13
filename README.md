@@ -14,8 +14,9 @@ O diferencial está no uso de **softmax intermediários** em cada domínio, perm
 
 ```text
 ├── data/                # Dados de entrada (data.csv)
+|   └── data.csv
 │   └── diagnosticos/    # Explicações salvas automaticamente
-├── models/              # Modelos treinados (lumen.pt)
+├── models/              # Modelos treinados (lumen.pt) **OBS: Essa pasta deve ser criada antes de treinar o modelo**
 ├── baseline_model.py    # Modelo convencional
 ├── lumen_model.py       # Arquitetura LUMEN
 ├── explain_lumen_llm.py # Integração com LLM local para XAI
